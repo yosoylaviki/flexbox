@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 3</title>
+
+  <style type="text/css">
+
+  nav {
+    Border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    align-items: baseline;
+  }
+
+  .logo{
+    flex-grow: 4;
+  }
+
+  .logo span{
+    font-size: 3em;
+    color: #FF4331;
+    font-weight: bold;
+  }
+
+  .menu{
+    font-family: monospace;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+
+.menu_item a{
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 768px){
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu{
+    flex-direction: column;
+  }
+}
+
+  </style>
+
+
+</head>
+<body>
+
+<nav>
+  <div class="logo">
+    <span>D.</span>
+  </div>
+  <div class="menu">
+    <div class="menu_item">
+      <a href="">Inicio</a>
+    </div>
+    <div class="menu_item">
+      <a href="">Entrevistas</a>
+    </div>
+    <div class="menu_item">
+      <a href="">Música</a>
+    </div>
+    <div class="menu_item">
+      <a href="">Tendencias</a>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+</body>
+</html>
