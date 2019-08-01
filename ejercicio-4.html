@@ -6,17 +6,45 @@
   <title>Ejercicio 4</title>
 </head>
 <style type="text/css">
-
+  .container {
+    background-color:#FBFBFB;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .container__button {
+      display: flex;
+        flex-direction: row;
+        width: 100%;
+  }
+  .container__item {
+    background-color: #FF659F;
+    color: #FFF;
+    flex-grow : 1;
+    flex-shrink : 1;
+    flex-basis : 0;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+  }
 </style>
 <body>
-  <h3>6 buttons</h3>
-<div class="button-area">
-  <a href="#">Button 1</a>
-  <a href="#">Button 2</a>
-  <a href="#">Button 3</a>
-  <a href="#">Button 4</a>
-  <a href="#">Button 5</a>
-  <a href="#">Button 6</a>
-</div>
+  <div class="container">
+    <div class="container__button">
+      <div class="container__item">#instaday</div>
+      <div class="container__item">#goodday</div>
+      <div class="container__item">#beautyplace</div>
+
+    </div>
+    <div class="container__button">
+
+      <div class="container__item">#friends</div>
+      <div class="container__item">#weekend</div>
+      <div class="container__item">#sun</div>
+    </div>
+  </div>
+
 </body>
 </html>
